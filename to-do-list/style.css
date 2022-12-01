@@ -1,0 +1,105 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(pictures/back2.jpg);
+    min-height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    height: 700px; 
+    min-width: 300px;
+}
+/*ввод нового дела*/
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+    background-color: lightgrey;
+    padding: 20px;
+    font-size: 30px;
+    height: 35px;
+    width: 95%;
+    
+}
+
+
+.todos {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: rgb(111, 114, 144, 0.5);
+    width: 95%;
+    padding: 20px ;
+    
+}
+
+/*введенное дело текст*/
+.todo {
+    display: flex;
+    font-size:12px;
+    justify-content: space-between;
+    padding: 5px ;
+    flex-grow: 1;   
+    font-family:Tahoma, Geneva, sans-serif;	
+    align-items: center;
+
+    
+}
+/*отмечаем выполненное дело*/
+.completed {
+    color: grey;   
+}
+/* зеленая кнопка добавить + */
+button#addTodo {
+display: flex;
+justify-content: center;
+align-items:center;
+background-color: #9C6;
+border: none;
+color: lightgrey;
+text-decoration: none;
+font-size: 40px;
+border-radius: 30px;}
+
+/*ввод нового дела*/
+input#todoInput {
+    width:900%;
+		height:11px;
+		padding:10px 6px 15px 9px;
+		margin:0;
+        border-radius: 10px;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:16px;
+		line-height:20px;
+		color:rgb(60, 60, 60);
+		border:0 none;
+		background:#9C6;
+        margin-right: 15px;
+        vertical-align: bottom;
+}
+
+.todoText {
+    display: flex;
+    flex-grow: 1;
+    font-size:18px;
+    margin-left: 10px;
+}
+
+/*картинки кнопок галка и урна*/
+.iconComplete {
+   
+   
+   
+    width: 25px;
+    margin-left: 5px;   
+}
+
+.iconDelete {
+    
+    
+    
+     width: 25px;
+    margin-left: 5px;   
+ }
